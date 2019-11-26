@@ -2,18 +2,18 @@
 Apply YOLOv3 approach for object detection
 ## RUN
 Training Mode
-  $  python -W ignore::UserWarning train.py --train=True
+$  python -W ignore::UserWarning train.py --train=True
 Detection Mode
-  $  python -W ignore::UserWarning train.py --detect=True
+$  python -W ignore::UserWarning train.py --detect=True
 
 ## Traing dataset
-  Modify dataset_folder='data/yours' in train.py
-  Training Mode (ref data/digit_mini)
-  put imgage file to  'data/yours/images/train'
-  put label txt to    'data/yours/label/train'
-  create training file list 'data/yours/train.f
+Modify dataset_folder='data/yours' in train.py
+Training Mode (ref data/digit_mini)
+put imgage file to  'data/yours/images/train'
+put label txt to    'data/yours/label/train'
+create training file list 'data/yours/train.f
 ## Detect Mode 
-  only require put imgage file to  'data/yours/images/test'
+only require put imgage file to  'data/yours/images/test'
   
 
 
