@@ -9,6 +9,7 @@ $  python -W ignore::UserWarning train.py --detect=True
 
 ## Traing dataset
 Modify dataset_folder='data/yours' in train.py
+
 Training Mode (ref data/digit_mini)
 put imgage file to  'data/yours/images/train'
 put label txt to    'data/yours/label/train'
