@@ -1,9 +1,9 @@
 # DL_CV_hw3
 Apply YOLOv3 approach for object detection
 ## RUN
-##Training Mode
+Training Mode
   $  python -W ignore::UserWarning train.py --train=True
-##Detection Mode
+Detection Mode
   $  python -W ignore::UserWarning train.py --detect=True
 
 ## Traing dataset
